@@ -1,5 +1,19 @@
 module.exports = {
-  purge: [],
+  // purge: {
+  //   mode: "layer",
+  //   content: [
+  //     'public/app.js',
+  //     'public/craft.css',
+  //     'public/index.html',
+  //     'public/style.css',
+  //     'src/style.css'
+  //   ]
+    
+  // },
+  purge: {
+    enabled: true,
+    content: ['./public/**/*.html', './public/**/*.js', './public/**/*.css'],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     // fontFamily: {

@@ -2,7 +2,7 @@
     display: none!important;
 }
 #contact-us{
-    background: url(/media/bg.jpg) center center fixed;
+    background: url(media/bg.jpg) center center fixed;
     background-size: cover;
 }
 html{
